@@ -1,0 +1,266 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: darkslateblue;
+}
+
+#contenido{
+	width: 70%;
+	
+	margin: 0px auto;
+}
+header{
+	height: 100px;
+	width: 100%;
+	background: whitesmoke;
+	line-height: 100px;
+	text-align: center;
+	margin: 0px;
+	color: darkblue;
+}
+nav ul li{
+	float: left;
+	color: black;
+	margin:  10px;
+	line-height: :25px;
+
+}
+a{
+	color: blue;
+}
+
+#Inicio img {
+	
+	float: left;
+	width: 10%;
+	height: 14%;
+	
+	padding:2px;
+	padding-top: 2%;
+	padding-right: 5%;
+	border-radius:2px ;
+	
+
+	
+	
+	
+	
+}
+aside
+{
+	
+
+	float: left;
+	width: 40%;
+	min-height: 300px;
+	background: whitesmoke;
+	
+	
+		
+}
+
+#video
+{
+	
+	float: right;
+	width: 60%;
+	min-height: 300px;
+	background: whitesmoke;
+
+
+	
+}
+
+footer
+{
+	float: right;
+	line-height: 10px;
+	min-height: 100%;
+	width: 100%;
+	text-align: center;
+	border: 1px solid black;
+	background: #ccc;
+	color: darkblue;
+	
+}
+
+nav{
+	background: #ccc;
+	border: 1px solid black;
+	padding-left: 30px ;
+	height: 50px;
+
+}
+.barraNavegacion{
+	clear: both;
+}
+#Inicio{
+	width:100%;
+	min-height:300px ;
+	background: whitesmoke ;
+	display: block;
+
+	
+	
+}
+#Inicio p.pr{
+	
+	text-align: center;
+	margin-left: 2% ;
+	padding-left: 40%;
+	shape-padding: 20%;
+	shape-margin: 10%;
+}
+
+#Inicio p {
+	float: right;	
+	width:80%;
+	height: 10%;
+	text-align: auto;
+	
+
+}
+
+
+
+
+.formContacto{
+	
+	background:floralwhite;
+	margin:auto ;
+	padding-left:35%;
+	padding-right:35% ;
+	width:30%;
+	height: 100%;
+	margin-top: 10px;
+	border-radius: 'calibri';
+	color:  darkblue;
+	border: 1px solid black;
+}
+
+.formContacto h1{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.formContacto .btnContacto{
+	
+	padding-bottom: 6px;
+	background: #ccc;
+	border: 1p solid black;
+	width:30%;
+    border-radius:5px;
+    color: black;
+    margin:16px ;
+    font-size: 16px;
+    font-family: 'calibri';
+
+}
+
+.controls{
+	width:100%;
+	background: #ccc;
+    padding: 10px;
+    border-radius:5px;
+    margin-bottom: 18px;
+    font-family: 'calibri';
+    font-zise: 19px;
+}
+
+.contenidoSlider{
+	margin: auto ;
+	background-color: whitesmoke ;
+	width:800px ;
+	padding:30px ;
+}
+.contenidoSlider ul, li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.slider{
+	position: relative;
+	width: 800px;
+	height: 300px;
+}
+
+
+
+ul.slider li{
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	width: inherit;
+	height: inherit;
+	background-color: floralwhite;
+	transition: opacity .5s;
+}
+ul.slider li img{
+	width:100%;
+	height:300px;
+	object-fit: cover;
+}
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+ul.slider li:target{
+	opacity: 1;
+}
+
+.menuSlider {
+	text-align: center;
+	margin:  20px;
+}
+.menuSlider li{
+	display: inline-block;
+	text-align: center;
+}
+.menuSlider li a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	background-color: gray;
+	padding: 10px;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	border-radius: 100%;
+}
+
+table{
+	background-color: whitesmoke;
+	text-align: left;
+	border-collapse: collapse ;
+	width: 100%;
+}
+
+th,td{
+	border: solid 1px black;
+	padding: 20px;
+	font-family: 'calibri';
+    font-zise: 19px;
+    color: black;
+
+}
+
+thead{
+	background: #chocolate;
+	border-bottom:solid 5px darkslateblue ;
+	color: darkblue;
+}
+
+tr:nth-child(old){
+	background-color: #ddd;
+}
+dl{
+	background-color: whitesmoke ;
+}
+
+
+
+
+
